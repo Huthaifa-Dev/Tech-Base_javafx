@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root fx:id="homePane" prefHeight="700.0" prefWidth="933.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Components.Status">
+    <children>
+        <VBox prefHeight="625.0" prefWidth="763.0" spacing="25.0">
+            <children>
+                <Pane prefHeight="200.0" prefWidth="826.0">
+                    <children>
+                        <Pane fx:id="imageContiner" prefHeight="200.0" prefWidth="460.0" styleClass="imageResume">
+                     <children>
+                        <ImageView fx:id="resume_image" fitHeight="200.0" fitWidth="460.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></Pane>
+                        <Pane layoutX="460.0" prefHeight="200.0" prefWidth="304.0">
+                            <children>
+                                <VBox prefHeight="200.0" prefWidth="304.0" spacing="10.0">
+                                    <padding>
+                                        <Insets bottom="20.0" left="25.0" right="15.0" top="35.0" />
+                                    </padding>
+                                    <children>
+                                        <Label fx:id="course_name" prefHeight="18.0" prefWidth="244.0" text="JavaScript" textFill="#dddddd">
+                                            <font>
+                                                <Font name="HelveticaInseratBQ-Regular" size="24.0" />
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="course_branch" prefHeight="17.0" prefWidth="215.0" text="    3.filter( ) Function Excersise" textFill="#dddddd">
+                                            <font>
+                                                <Font name="Helvetica" size="12.0" />
+                                            </font>
+                                        </Label>
+                                        <HBox prefHeight="32.0" prefWidth="264.0" spacing="20.0">
+                                            <children>
+                                                <ImageView fx:id="teacher_image" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+                                                <Label fx:id="teacher_name" prefHeight="47.0" prefWidth="197.0" text="By Bianca Gondolfo" textFill="#dddddd">
+                                                    <font>
+                                                        <Font name="Helvetica" size="12.0" />
+                                                    </font>
+                                                </Label>
+                                            </children>
+                                        </HBox>
+                                        <HBox prefHeight="71.0" prefWidth="264.0" spacing="35.0">
+                                            <children>
+                                                <Button fx:id="resume_btn" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" styleClass="card-button" text="RESUME" textFill="WHITE">
+                                                    <font>
+                                                        <Font name="System Bold" size="12.0" />
+                                                    </font>
+                                                </Button>
+                                                <Button fx:id="brouse_btn" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" text="BROWSE" textFill="WHITE">
+                                                    <font>
+                                                        <Font name="System Bold" size="12.0" />
+                                                    </font>
+                                                    <styleClass>
+                                                        <String fx:value="card-button" />
+                                                        <String fx:value="orange" />
+                                                    </styleClass>
+                                                </Button>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </Pane>
+                    </children>
+                    <styleClass>
+                        <String fx:value="resumeBox" />
+                        <String fx:value="dropShadow" />
+                    </styleClass>
+                </Pane>
+                <FlowPane hgap="21.0" prefHeight="376.0" prefWidth="763.0" prefWrapLength="700.0" vgap="50.0">
+                    <children>
+                        <Pane prefHeight="150.0" prefWidth="240.0">
+                            <children>
+                                <Pane layoutY="119.0" prefHeight="56.0" prefWidth="240.0" styleClass="card-title">
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="140.0" text="Frontend Masters">
+                                            <font>
+                                                <Font name="HelveticaNeueLTStd-Md" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Button layoutX="159.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" styleClass="card-button" text="V I S I T" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </Pane>
+                                <Pane prefHeight="119.0" prefWidth="240.0" styleClass="site-logo" />
+                            </children>
+                            <styleClass>
+                                <String fx:value="card" />
+                                <String fx:value="frontend-masters" />
+                                <String fx:value="dropShadow" />
+                            </styleClass>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="240.0">
+                            <children>
+                                <Pane layoutY="119.0" prefHeight="56.0" prefWidth="240.0" styleClass="card-title">
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="140.0" text="Udemy">
+                                            <font>
+                                                <Font name="HelveticaNeueLTStd-Md" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Button layoutX="159.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" styleClass="card-button" text="V I S I T" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </Pane>
+                                <Pane prefHeight="119.0" prefWidth="240.0" styleClass="site-logo" />
+                            </children>
+                            <styleClass>
+                                <String fx:value="card" />
+                                <String fx:value="udemy" />
+                                <String fx:value="dropShadow" />
+                            </styleClass>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="240.0">
+                            <children>
+                                <Pane layoutY="119.0" prefHeight="56.0" prefWidth="240.0" styleClass="card-title">
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="140.0" text="Newline">
+                                            <font>
+                                                <Font name="HelveticaNeueLTStd-Md" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Button layoutX="159.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" styleClass="card-button" text="V I S I T" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </Pane>
+                                <Pane prefHeight="119.0" prefWidth="240.0" styleClass="site-logo" />
+                            </children>
+                            <styleClass>
+                                <String fx:value="card" />
+                                <String fx:value="newline" />
+                                <String fx:value="dropShadow" />
+                            </styleClass>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="240.0">
+                            <children>
+                                <Pane layoutY="119.0" prefHeight="56.0" prefWidth="240.0" styleClass="card-title">
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="140.0" text="Lynda">
+                                            <font>
+                                                <Font name="HelveticaNeueLTStd-Md" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Button layoutX="159.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" styleClass="card-button" text="V I S I T" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </Pane>
+                                <Pane prefHeight="119.0" prefWidth="240.0" styleClass="site-logo" />
+                            </children>
+                            <styleClass>
+                                <String fx:value="card" />
+                                <String fx:value="lynda" />
+                                <String fx:value="dropShadow" />
+                            </styleClass>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="240.0">
+                            <children>
+                                <Pane layoutY="119.0" prefHeight="56.0" prefWidth="240.0" styleClass="card-title">
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="140.0" text="Designcode">
+                                            <font>
+                                                <Font name="HelveticaNeueLTStd-Md" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Button layoutX="159.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" styleClass="card-button" text="V I S I T" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </Pane>
+                                <Pane prefHeight="119.0" prefWidth="240.0" styleClass="site-logo" />
+                            </children>
+                            <styleClass>
+                                <String fx:value="card" />
+                                <String fx:value="designcode" />
+                                <String fx:value="dropShadow" />
+                            </styleClass>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="240.0">
+                            <children>
+                                <Pane layoutY="119.0" prefHeight="56.0" prefWidth="240.0" styleClass="card-title">
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="13.0" prefHeight="31.0" prefWidth="140.0" text="Educative">
+                                            <font>
+                                                <Font name="HelveticaNeueLTStd-Md" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Button layoutX="159.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="67.0" styleClass="card-button" text="V I S I T" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="12.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </Pane>
+                                <Pane prefHeight="119.0" prefWidth="240.0" styleClass="site-logo" />
+                            </children>
+                            <styleClass>
+                                <String fx:value="card" />
+                                <String fx:value="educative" />
+                                <String fx:value="dropShadow" />
+                            </styleClass>
+                        </Pane>
+                    </children>
+                </FlowPane>
+            </children>
+        </VBox>
+    </children>
+   <padding>
+      <Insets bottom="15.0" left="85.0" right="85.0" top="65.0" />
+   </padding>
+</fx:root>

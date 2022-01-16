@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="200.0" prefWidth="150.0" style="-fx-background-radius: 5; -fx-border-radius: 5;" styleClass="dropShadow" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Components.Book">
+   <children>
+      <ImageView fx:id="bookImage" fitHeight="200.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane fx:id="collect" layoutY="150.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: rgba(0,0,0,0.75);">
+         <children>
+            <Label fx:id="bookName" layoutX="14.0" layoutY="10.0" prefHeight="30.0" prefWidth="97.0" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</fx:root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root fx:id="course" prefHeight="140.0" prefWidth="140.0" style="-fx-background-color: white; -fx-border-radius: 5; -fx-background-radius: 5;" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Components.Course">
+   <children>
+      <ImageView fx:id="courseImageView" fitHeight="100.0" fitWidth="100.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <styleClass>
+      <String fx:value="courseSquare" />
+      <String fx:value="dropShadow" />
+   </styleClass>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</fx:root>

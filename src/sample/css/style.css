@@ -1,0 +1,123 @@
+
+.resumeBox{
+    -fx-border-radius:5;
+    -fx-background-radius: 5;
+    -fx-background-color: #292929;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.card-title{
+    -fx-background-color: white;
+    -fx-border-radius:0 0 5 5;
+    -fx-background-radius: 0 0 5 5;
+}
+.site-logo{
+    -fx-border-radius:5 5 0 0;
+    -fx-background-radius: 5 5 0 0;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.frontend-masters .site-logo{
+    -fx-background-image: url("../img/frontendmasters.e1e10b58c1.png");
+    -fx-background-size: 75%;
+
+}
+.frontend-masters{
+-fx-background-color: #1f1f1f;
+}
+.newline,.udemy{
+    -fx-background-color: white;
+}
+.newline .site-logo{
+    -fx-background-image: url("../img/newline-logo-longwise-lightbg-40h.png");
+    -fx-background-size: 65%;
+}
+.udemy .site-logo{
+    -fx-background-image: url("../img/udemy.png");
+    -fx-background-size: 60%;
+}
+.lynda .site-logo{
+    -fx-background-image: url("../img/ce3bb3ac827b287b0b167ad673a2f865.png");
+    -fx-background-size: 50%;
+}
+.lynda{
+    -fx-background-color: #FFC20E;
+}
+.designcode .site-logo{
+    -fx-background-image: url("../img/DesignCode-Logo-Black.png");
+    -fx-background-size: 30%;
+}
+.designcode{
+    -fx-background-color: linear-gradient(#3d0ac6, #911bf3);
+}
+.educative{
+    -fx-background-color: white;
+
+}
+.educative .site-logo{
+    -fx-background-image: url("../img/educativelogo.png");
+    -fx-background-size: 30%;
+}
+.backgroundFill{
+    -fx-background-image: url("../img/Blur05.png");
+    -fx-background-color: rgba(255,255,255,0.5);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+    -fx-background-repeat: repeat-y;
+
+}
+.card{
+    -fx-border-radius:5;
+    -fx-background-radius: 5;
+}
+.card-button:hover{
+    -fx-cursor: hand;
+
+}
+.card-button{
+    -fx-background-color: #0177FF;
+    -fx-border-style: none;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 5, -5, 1, 1);
+}
+.orange{
+    -fx-background-color: #FF8400;
+}
+.courseSquare{
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+
+}
+.dropShadow{
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, -5, 2, 2);
+}
+.contentContainer{
+
+}
+.teacherCard{
+    -fx-background-color: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+.logOut{
+    -fx-background-image: url("../img/icons8_logout_rounded_up_28px.png");
+}
+.videosList{
+    -fx-background-color: #1f1f1f;
+}
+.back{
+    -fx-background-image: url("../img/icons8_Left_Arrow_30px.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.videoicon{
+    -fx-background-image: url("../img/icons8_video_30px.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25px;
+}
+.share{
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15px;
+    -fx-background-position: center;
+    -fx-background-image: url("../img/icons8_share_17px.png");
+}

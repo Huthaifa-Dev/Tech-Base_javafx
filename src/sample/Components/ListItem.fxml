@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root fx:id="VideosPane" prefHeight="60.0" prefWidth="260.0" style="-fx-background-color: #1f1f1f;" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Components.ListItem">
+   <children>
+      <Label fx:id="VName" layoutX="59.0" layoutY="8.0" prefHeight="45.0" prefWidth="190.0" textFill="#d3d3d3">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Pane layoutX="20.0" layoutY="16.0" prefHeight="30.0" prefWidth="30.0" styleClass="videoicon" />
+   </children>
+</fx:root>

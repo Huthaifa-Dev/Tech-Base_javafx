@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root fx:id="VideosPane" prefHeight="700.0" prefWidth="933.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Components.Videos">
+   <children>
+      <ScrollPane fx:id="VideosList" hbarPolicy="NEVER" layoutY="40.0" prefHeight="660.0" prefWidth="262.0" style="-fx-background-color: #1f1f1f;" />
+      <Pane fx:id="VideosContent" layoutX="262.0" prefHeight="700.0" prefWidth="673.0" style="-fx-background-color: #191919;" />
+      <Pane prefHeight="40.0" prefWidth="262.0" style="-fx-background-color: #191919;">
+         <children>
+            <Pane fx:id="backCourses" prefHeight="40.0" prefWidth="47.0" styleClass="back" />
+            <Label layoutX="67.0" layoutY="4.0" prefHeight="33.0" prefWidth="148.0" text="Courses" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </children>
+</fx:root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root fx:id="VideosPane" prefHeight="700" prefWidth="673" style="-fx-background-color: #191919;" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Components.VideoContent">
+   <children>
+      <Pane layoutX="37.0" layoutY="435.0" prefHeight="244.0" prefWidth="600.0">
+         <children>
+            <Pane fx:id="openGom" layoutX="471.0" layoutY="14.0" prefHeight="35.0" prefWidth="115.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="9.0" prefHeight="17.0" prefWidth="63.0" text="Open GOM" textFill="WHITE" />
+                  <Pane layoutX="81.0" layoutY="8.0" prefHeight="17.0" prefWidth="17.0" styleClass="share" />
+               </children>
+            </Pane>
+            <Label fx:id="V_name" layoutX="14.0" layoutY="14.0" prefHeight="42.0" prefWidth="263.0" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </children>
+</fx:root>

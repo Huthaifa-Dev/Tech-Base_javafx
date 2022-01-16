@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="base_frame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" styleClass="ancorBack" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="933.0" layoutX="267.0" opacity="0.5" pickOnBounds="true">
+         <image>
+            <Image url="@img/Blur05.png" />
+         </image>
+      </ImageView>
+      <HBox prefHeight="700.0" prefWidth="1200.0">
+         <children>
+            <Pane fx:id="side_panel" prefHeight="700.0" prefWidth="268.0" style="-fx-background-color: #fff;">
+               <children>
+                  <Pane>
+                     <children>
+                        <VBox prefHeight="700.0" prefWidth="268.0">
+                           <children>
+                              <Pane prefHeight="165.0" prefWidth="300.0">
+                                 <children>
+                                    <ImageView fx:id="logo" fitHeight="66.0" fitWidth="239.0" layoutX="27.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@img/logo.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="616.0" prefWidth="300.0">
+                                 <children>
+                                    <VBox prefHeight="576.0" prefWidth="268.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="279.0">
+                                             <children>
+                                                <Pane fx:id="home_menu" onMouseClicked="#goHome" prefHeight="50.0" prefWidth="268.0">
+                                                   <children>
+                                                      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="33.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@img/icons8_home_35px_1.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label layoutX="75.0" layoutY="8.0" prefHeight="28.0" prefWidth="161.0" text="Home" textFill="#414042">
+                                                         <font>
+                                                            <Font name="Inter Regular" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Separator layoutX="35.0" layoutY="40.0" prefWidth="200.0" />
+                                                   </children>
+                                                   <cursor>
+                                                      <Cursor fx:constant="HAND" />
+                                                   </cursor>
+                                                </Pane>
+                                                <Pane fx:id="home_menu1" layoutY="50.0" onMouseClicked="#goCourses" prefHeight="50.0" prefWidth="268.0">
+                                                   <children>
+                                                      <ImageView fitHeight="28.0" fitWidth="33.0" layoutX="33.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@img/icons8_play_35px_2.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label layoutX="75.0" layoutY="8.0" prefHeight="28.0" prefWidth="161.0" text="Courses" textFill="#414042">
+                                                         <font>
+                                                            <Font name="Inter Regular" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Separator layoutX="35.0" layoutY="40.0" prefWidth="200.0" />
+                                                   </children>
+                                                   <cursor>
+                                                      <Cursor fx:constant="HAND" />
+                                                   </cursor>
+                                                </Pane>
+                                                <Pane fx:id="home_menu11" layoutY="100.0" onMouseClicked="#goBooks" prefHeight="50.0" prefWidth="268.0">
+                                                   <children>
+                                                      <ImageView fitHeight="28.0" fitWidth="33.0" layoutX="33.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@img/icons8_book_shelf_35px.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label layoutX="75.0" layoutY="8.0" prefHeight="28.0" prefWidth="161.0" text="Books" textFill="#414042">
+                                                         <font>
+                                                            <Font name="Inter Regular" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Separator layoutX="35.0" layoutY="40.0" prefWidth="200.0" />
+                                                   </children>
+                                                   <cursor>
+                                                      <Cursor fx:constant="HAND" />
+                                                   </cursor>
+                                                </Pane>
+                                                <Pane fx:id="home_menu111" layoutY="150.0" onMouseClicked="#goInstructors" prefHeight="50.0" prefWidth="268.0">
+                                                   <children>
+                                                      <ImageView fitHeight="28.0" fitWidth="33.0" layoutX="33.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@img/icons8_training_35px.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Label layoutX="75.0" layoutY="8.0" prefHeight="28.0" prefWidth="161.0" text="Instructors" textFill="#414042">
+                                                         <font>
+                                                            <Font name="Inter Regular" size="18.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Separator layoutX="35.0" layoutY="40.0" prefWidth="200.0" />
+                                                   </children>
+                                                   <cursor>
+                                                      <Cursor fx:constant="HAND" />
+                                                   </cursor>
+                                                </Pane>
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="375.0" prefWidth="300.0">
+                                             <children>
+                                                <Pane fx:id="user" layoutX="-1.0" layoutY="311.0" prefHeight="50.0" prefWidth="268.0">
+                                                   <children>
+                                                      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="27.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <Label fx:id="userName" layoutX="94.0" layoutY="11.0" prefHeight="28.0" prefWidth="122.0" />
+                                                      <Pane layoutX="226.0" layoutY="11.0" prefHeight="28.0" prefWidth="28.0" styleClass="logOut" />
+                                                   </children></Pane>
+                                             </children></Pane>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <StackPane fx:id="contentContainer" prefHeight="700.0" prefWidth="933.0" styleClass="contentContainer">
+               <children>
+                  <ImageView fitHeight="500.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/Asset%201.png" />
+                     </image></ImageView>
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
